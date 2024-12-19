@@ -92,7 +92,6 @@ public class TestResources extends TestWatcher {
     // static helpers
 
     public static void cp(File basedir, String from, String to) throws IOException {
-        // TODO ensure destination lastModified timestamp changes
         FileUtils.copyFile(new File(basedir, from), new File(basedir, to));
     }
 
