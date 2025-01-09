@@ -87,6 +87,7 @@ import org.codehaus.plexus.util.xml.Xpp3DomBuilder;
  * instead.
  *
  */
+@Deprecated
 public abstract class AbstractMojoTestCase extends PlexusTestCase {
     private static final DefaultArtifactVersion MAVEN_VERSION;
 
